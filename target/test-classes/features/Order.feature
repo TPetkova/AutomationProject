@@ -3,7 +3,7 @@ Feature: Purchase from the website "http://www.automationpractice.pl/index.php"
   As a user
   I want to successfully do purchases in the website
 
-  Scenario: User makes a successful purchase
+  Scenario: User adds a product in a shopping cart
     Given a user is logged on the "http://www.automationpractice.pl/index.php" page
     And the user clicks "T-Shirts" from the main menu
     And the user selects an item "Faded Short Sleeve T-shirts" with the following properties:
